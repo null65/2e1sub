@@ -3,52 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2E1SUB Amateur Radio</title>
-    <!-- Use the Inter font from Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Load Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>2E1SUB - Amateur Radio</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            color: #334155;
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        /* Custom scrollbar styles */
-        ::-webkit-scrollbar {
-            width: 8px;
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            padding: 2rem;
+            box-sizing: border-box;
         }
-        ::-webkit-scrollbar-track {
-            background: #111827;
+        .title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1rem;
         }
-        ::-webkit-scrollbar-thumb {
-            background-color: #4B5563;
-            border-radius: 4px;
+        .subtitle {
+            text-align: center;
+            font-size: 1.25rem;
+            color: #64748b;
+            margin-bottom: 2rem;
         }
-        ::-webkit-scrollbar-thumb:hover {
-            background-color: #6B7280;
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1e293b;
+            border-bottom: 2px solid #cbd5e1;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            color: #475569;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 1rem;
+        }
+        li {
+            padding: 0.25rem 0;
+        }
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #2563eb;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #cbd5e1;
+            margin: 2rem 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e2e8f0;
+            color: #64748b;
         }
     </style>
 </head>
-<body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col antialiased">
+<body>
+    <div class="container">
+        <h1 class="title">2E1SUB Amateur Radio Page</h1>
+        <h2 class="subtitle">Hi and thanks for visiting my new blog, There's a little about me and how I got involved in amateur radio. Also some other interesting projects.</h2>
+        
+        <hr>
 
-    <!-- Main Content - Simple Landing Page -->
-    <main class="flex-grow flex flex-col items-center justify-center text-center p-8 md:p-16">
-        <div class="space-y-6 max-w-2xl mx-auto">
-            <h1 class="text-6xl md:text-8xl font-extrabold text-teal-400 leading-tight tracking-wide animate-pulse">
-                2E1SUB
-            </h1>
-            <p class="text-xl md:text-2xl text-gray-400 font-semibold mt-4">
-                Website Coming Soon
-            </p>
-        </div>
-    </main>
+        <p>My first discovery of amateur radio was in February 2024, when I was introduced to Nathan (2E0NNC) from my school. Since we both had an interest in computers and the like, he mentioned he had an amateur radio license and I liked the sound of something like that. What I didn't know was that I actually already had a Radio, the very common <b>Baofeng UV5R</b>... I bought it a few weeks prior for emergency preparedness as many people do, knowing that I can't use it unless there is an emergency.</p>
+        <p>Soon after this, Nathan suggested I get my Foundation License. He suggested a course from <a href="https://www.essexham.co.uk/how-to-become-a-ham" target="_blank">Essex Ham</a>, so I took the course and successfully passed my <b>Foundation License</b> on the 14th May 2024, (Age at this time: 12).</p>
+        <p>I made my first ever contact about 20 minutes after receiving my official license from Ofcom, on the popular repeater local to my area GB3LT, to <b>Steve M1CYT</b>. Who was very kind and was patient with my mic fright.</p>
+        <p>I then went on to make many more contacts before coming off the air for a while. It was only when I first called out on the 2m calling frequency 145.500 that I spoke to <b>Matt Melling, G4IYT</b> and <b>Greg, Now M0YGL formerly 2E0YGL</b>. They were both very welcoming to the hobby after my short break, and encouraged me to join the <a href="https://www.verulam-arc.org.uk/" target="_blank">Verulam amateur radio club.</a></p>
+        <p>Fast forward to about a year after getting my license in February 2025, I sent an email to the chair of the Verulam club <a href="https://www.qrz.com/db/G7HMV" target="_blank">Matt - G7HMV</a> who encouraged me to join up!</p>
+        <p>After joining and fast forward to now, all the members of VARC have been incredibly welcoming to me and encouraged me to progress in the hobby. I passed my <b>Intermediate exam on the 27th of this month</b> and am now the proud holder of the callsign <b>2E1SUB</b>!</p>
+        
+        <div class="section-title">Acknowledgements</div>
+        <p>I have revised a lot with the help and support of:</p>
+        <ul>
+            <li><a href="https://g4iyt.uk" target="_blank">Matt, G4IYT</a></li>
+            <li><a href="https://moygl.uk" target="_blank">Greg, M0YGL</a></li>
+            <li><a href="https://qrz.com/db/g7hmv" target="_blank">Matt, G7HMV</a></li>
+            <li><a href="https://qrz.com/db/2e0owm" target="_blank">Will, 2E0OWM</a></li>
+            <li>and everyone else!</li>
+        </ul>
 
-    <!-- Footer -->
-    <footer class="w-full bg-gray-800 p-4 mt-8">
-        <div class="container mx-auto text-center text-gray-400">
-            <p>&copy; 2025 2E1SUB. All rights reserved.</p>
-        </div>
-    </footer>
+        <div class="section-title">Friends</div>
+        <p>A big thanks to my friends in the hobby:</p>
+        <ul>
+            <li><a href="nafaneel.uk" target="_blank">Nathan! 2E0NNC!</a></li>
+            <li><a href="https://g4iyt.uk" target="_blank">Matt G4IYT</a></li>
+            <li><a href="https://m0ygl.co.uk" target="_blank">Greg M0YGL</a></li>
+            <li><a href="https://qrz.com/db/g7hmv" target="_blank">Matt G7HMV</a></li>
+            <li><a href="https://qrz.com/db/m7mlu" target="_blank">Ambrozy M7MLU</a></li>
+            <li><a href="https://qrz.com/db/m7hwz" target="_blank">Tom M7HWZ</a></li>
+            <li><a href="https://qrz.com/db/2e0owm" target="_blank">Will 2E0OWM</a></li>
+            <li><a href="https://qrz.com/db/m1cvz" target="_blank">Jeremy M1CVZ</a></li>
+        </ul>
+    </div>
+    <p>this page was made entirely by AI until i have time to code it properly!</p>
 </body>
 </html>
